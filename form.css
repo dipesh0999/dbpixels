@@ -92,5 +92,6 @@ button{
     .add-detail{
         justify-content: space-between;
         gap: 5px;
+        flex-direction: column;
     }
 }
