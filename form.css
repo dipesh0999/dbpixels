@@ -90,7 +90,7 @@ button{
         width: 100%;
     }
     .add-detail{
-        justify-content: space-between;
+        justify-content: flex-start;
         gap: 5px;
         flex-direction: column;
     }
