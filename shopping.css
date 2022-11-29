@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: rgb(115, 109, 102);
+    color: #212121;
+    padding-top: 30px;
+}
+.title-1{
+    border-bottom: 2px solid rgba(0,0,0,.2);
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.cameras{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.flex-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.item{
+    border: 2px solid black;
+    padding: 15px 40px;
+    background-color: white;
+    flex: 1;
+    height: 420px;
+}
+.camera-1{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.name-1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#span{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#span-1{
+    text-decoration: line-through;
+    opacity: .5;
+}
+#span-2{
+    text-decoration: underline;
+}
+.bttn{
+    text-align: center;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 499px) {
+    body{
+        width: 100%;
+        padding: 0px 20px;
+        padding-top: 20px;
+    }
+    .cameras{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .camera{
+        width: 100%;
+    }
+    .flex-items{
+        flex-direction: column;
+    }
+    .item{
+        width: 100%;
+        padding: 15px 30px;
+    }
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(115, 109, 102);
+    color: black;
+    padding-top: 30px;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.fill{
+    margin-top: 5px;
+}
+.field{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.field-text{
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.fill-3{
+    margin-bottom: 10px;
+}
+.contact-title{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.contact-para{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact{
+    margin: 10px;
+    padding: 10px;
+}
+.terms{
+    text-align: center;
+}
+.terms-link{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:499px) {
+    body{
+        padding: 20px;
+    }
+    .container{
+        width: 100%;
+    }
+}
